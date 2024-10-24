@@ -1,0 +1,70 @@
+#heading1{
+    text-align: center;
+    color: red;
+
+}
+#paragraph1{
+    font-family: "Times New Roman";
+    font-size: 20px;
+
+}
+.one{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#mydivision{
+    background-color: lightblue;
+    margin: 50px;
+    padding: 30px;
+    color: white ;
+    font-weight: bolder;
+}
+
+#test{
+    background-color: grey;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    color: white;
+}
+
+#test p{
+    margin-left: 30px;
+}
+
+#test img{
+    border-radius: 400px;
+    width: 200px;
+    height: 200px;
+}
+
+#main{
+    display: flex;
+}
+
+#advertisement{
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 2px 4px skyblue;
+}
+
+#accounting{
+    background-color: green;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 2px 4px skyblue;
+}
+
+#payment{
+    background-color: red;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 2px 4px skyblue;
+}
+
+#advertisement:hover, #payment:hover, #accounting:hover{
+    background-color: gray;
+}
